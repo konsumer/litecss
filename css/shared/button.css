@@ -17,6 +17,7 @@ button, .button {
   padding: 8px 12px;
   position: relative;
   text-align: center;
+  text-decoration: none;
   text-transform: none;
   transition: color .2s linear,background-color .3s linear;
   user-select: none;
