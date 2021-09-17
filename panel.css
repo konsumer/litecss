@@ -1,0 +1,22 @@
+.panel {
+  box-sizing: inherit;
+  padding: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.panel > h4 {
+  padding: 20px;
+  color: #272c36;
+  font-size: 16px;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.panel.border {
+  border: 1px solid #e5e5ea;
+}
+
+.panel.shaded {
+  box-shadow: 0 4px 4px rgba(0,0,0,.12),0 0 10px rgba(0,0,0,.06);
+}

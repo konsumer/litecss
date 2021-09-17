@@ -1,0 +1,78 @@
+button, .button {
+  -webkit-appearance: button;
+  background: #f7f7fa;
+  border-radius: 6px;
+  border: none;
+  box-sizing: border-box;
+  color: #575757;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font: inherit;
+  margin-bottom: 0;
+  margin: 0;
+  outline: 0!important;
+  overflow: hidden;
+  padding: 8px 12px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: color .2s linear,background-color .3s linear;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button.primary, .button.primary {
+  color: #fff;
+  background-color: #3498ff;
+}
+
+button.link, .button.link {
+  color: #1675e0;
+  background-color: transparent;
+}
+
+button.subtle, .button.subtle {
+  color: #8e8e93;
+  background-color: transparent;
+}
+
+button.ghost, .button.ghost {
+  border: 1px solid #1675e0;
+  color: #1675e0;
+  background-color: transparent;
+}
+
+button.red, .button.red {
+  color: #fff;
+  background-color: #f44336;
+}
+
+button.orange, .button.orange {
+  background-color: #ff9800;
+}
+
+button.yellow, .button.yellow {
+  background-color: #ffca28;
+}
+
+button.green, .button.green {
+  color: #fff;
+  background-color: #4caf50;
+}
+
+button.cyan, .button.cyan {
+  color: #fff;
+  background-color: #00bcd4;
+}
+
+button.blue, .button.blue {
+  color: #fff;
+  background-color: #2196f3;
+}
+
+button.violet, .button.violet {
+  color: #fff;
+  background-color: #673ab7;
+}
