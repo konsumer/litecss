@@ -1,0 +1,11 @@
+.panel > h4 {
+  padding: 20px;
+  color: #272c36;
+  font-size: 16px;
+  line-height: 1.25;
+  margin: 0;
+}
+
+.panel.border {
+  border: 1px solid #e5e5ea;
+}
