@@ -1,0 +1,8 @@
+hr {
+  border-top: 1px solid #333;
+}
+
+.separator::before,
+.separator::after {
+  border-bottom: 1px solid #333;
+}
