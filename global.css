@@ -5,8 +5,8 @@
   font-display: swap;
   unicode-range: U+000-5FF;
   src: local('Avenir Next'),
-    url('hinted-AvenirNext-Regular.woff2') format('woff2'),
-    url('hinted-AvenirNext-Regular.woff') format('woff');
+    url('font/hinted-AvenirNext-Regular.woff2') format('woff2'),
+    url('font/hinted-AvenirNext-Regular.woff') format('woff');
 }
 
 * {
