@@ -14,3 +14,4 @@ Basic idea is there is a few global styles, for basic tags, and then a bunch of 
 - wrap everything in light react-componets, use [cxs](https://github.com/cxs-css/cxs) to join classes
 - dark theme
 - merge shared/light/dark stylesheets into imports with media-queries
+- use css variables
