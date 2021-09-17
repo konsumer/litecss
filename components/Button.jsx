@@ -8,5 +8,5 @@ export default function Button ({ tag = 'button', primary, link, subtle, ghost, 
     newClick = onClick
   }
   const Tag = tag
-  return <Tag className={cx({ button: true, primary, link, subtle, ghost, red, orange, yellow, green, cyan, blue, violet })} {...props} onClick={newClick} />
+  return <Tag className={cx({ button: tag !== 'button', primary, link, subtle, ghost, red, orange, yellow, green, cyan, blue, violet })} {...props} onClick={newClick} />
 }
