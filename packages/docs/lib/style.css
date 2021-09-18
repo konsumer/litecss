@@ -1,0 +1,49 @@
+@import 'litecss/style/global.css';
+@import 'litecss/style/button.css';
+@import 'litecss/style/panel.css';
+@import 'litecss/style/seperator.css';
+
+@import 'litecss/style/theme-default.css';
+
+code[class*="language-"] *, pre[class*="language-"] * {
+  font-family: var(--font-code);
+}
+
+@import 'prism-themes/themes/prism-darcula.css' screen and (prefers-color-scheme: dark);
+@import 'prism-themes/themes/prism-one-light.css' screen and (prefers-color-scheme: light);
+
+
+#__next {
+  display: flex;
+  height: 100vh;
+}
+
+#__next > aside {
+  height: 100vh;
+  width: 200px;
+}
+
+#__next > main {
+  overflow: auto;
+}
+
+#__next > aside > h1 {
+  margin: 0;
+  padding-left: 20px;
+  display:flex;
+  align-items: center;
+  background: #000;
+  color: #fff;
+  position: sticky;
+  top: 0px;
+  width: 100vw;
+}
+
+#__next > aside nav button {
+  display: block;
+  padding-left: 50px;
+}
+
+#__next > aside > h1 img {
+  margin-right: 10px;
+}

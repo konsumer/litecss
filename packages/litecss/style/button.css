@@ -1,10 +1,10 @@
 button, .button {
   -webkit-appearance: button;
-  background: #f7f7fa;
+  background: var(--color-button-bg);
   border-radius: 6px;
   border: none;
   box-sizing: border-box;
-  color: #575757;
+  color: var(--color-button-fg);
   cursor: pointer;
   display: inline-block;
   font-family: inherit;

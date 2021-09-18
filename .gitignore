@@ -2,4 +2,9 @@ node_modules
 .DS_Store
 dist
 dist-ssr
+.next/
+out/
+build
+.vercel/
 *.local
+*.log

@@ -1,0 +1,35 @@
+# Getting Started
+
+## Install
+
+```bash
+npm i litecss
+```
+
+## React
+
+Import the components you need:
+
+```jsx
+import from 'litecss/components/Button.jsx'
+
+export default () => (
+  <Button primary>COOL!</Button>
+)
+```
+
+## Elsewhere
+
+You can use litecss without any javascript framework. You won't have all the javacript interactions, but they should basically work:
+
+```html
+<button class="primary">COOL!</button>
+```
+
+## Style
+
+You will need styles for anything to work. In general, styles are meant to be simple enough that you can write tour own pretty easily, either by modifying the theme-variables, or by modifying the individual component styles, and importing that instead.
+
+How you should import them depends on how your build system works, and your preferences.
+
+You can get a full list of available style imports <Link href="/styles"><a>here</a></Link>.

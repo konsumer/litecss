@@ -1,0 +1,19 @@
+# Styles
+
+You will need the styles. `theme-default` is a nice set of colors and fonts, and it adapts to user-color-preference. In general styles are meant to be simple enough that you can write tour own pretty easily, either by modifying the theme-variables, or by modifying the individual component styles, and importing that instead. Be sure to leave out the style of any components you are not using.
+
+How you should import styles depends on how your build system works, and your preferences.
+
+## Javascript (in webpack, nextjs, etc)
+
+<ListStyle styles={styles} type="js" />
+
+## HTML
+
+<ListStyle styles={styles} type="html" />
+
+## CSS
+
+If you are processing your CSS with next/webpack, you should be able to do something like this, in your own CSS file:
+
+<ListStyle styles={styles} type="css" />

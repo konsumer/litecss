@@ -13,7 +13,4 @@ The essential idea of this UI toolkit is that these are very simple components, 
 - add more basic components, for example [some of these](https://rsuitejs.com/components)
 - better global normlalize base
 - common composite examples
-- dark theme
-- merge shared/light/dark stylesheets into imports with media-queries
-- use css variables
 - think of a better name (maybe "arrgh-sweet!" - "making a simpler rsuite"

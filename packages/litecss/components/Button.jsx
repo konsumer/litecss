@@ -1,4 +1,3 @@
-import React from 'react'
 import cx from 'classnames'
 
 export default function Button ({ tag = 'button', primary, link, subtle, ghost, red, orange, yellow, green, cyan, blue, violet, href, onClick = () => {}, ...props }) {
