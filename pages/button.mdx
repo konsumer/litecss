@@ -1,0 +1,37 @@
+# Button
+
+## install
+
+First install the parts you want:
+
+```bash
+npm i @litecss/look @litecss/button
+```
+
+## usage
+
+Add it to your JSX file, and include the style:
+
+```js
+import '@litecss/look/style.css'
+import '@litecss/button/style.css'
+import Button from '@litecss/button/index.jsx'
+```
+
+```jsx live=true
+<div>
+  <Button>REGULAR</Button>
+  <Button primary>PRIMARY</Button>
+  <Button link>LINK</Button>
+  <Button subtle>SUBTLE</Button>
+  <Button ghost>GHOST</Button>
+  <Button red>RED</Button>
+  <Button orange>ORANGE</Button>
+  <Button yellow>YELLOW</Button>
+  <Button green>GREEN</Button>
+  <Button cyan>CYAN</Button>
+  <Button blue>BLUE</Button>
+  <Button violet>VIOLET</Button>
+  <Button primary tag='a' href='#cool'>a-tag</Button>
+</div>
+```

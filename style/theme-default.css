@@ -1,0 +1,50 @@
+/* this is a set of variables that describes a theme that adapts to user color-preferences */
+
+@font-face {
+  font-family: 'Avenir Next'; 
+  font-weight: 400; 
+  font-style: normal; 
+  font-display: swap;
+  unicode-range: U+000-5FF;
+  src: local('Avenir Next'),
+    url('font/hinted-AvenirNext-Regular.woff2') format('woff2'),
+    url('font/hinted-AvenirNext-Regular.woff') format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+/* light by default */
+:root {
+  --color-primary: #3498ff;
+  --color-red: #f44336;
+  --color-orange: #fa8900;
+  --color-yellow: #ffb300;
+  --color-green: #4caf50;
+  --color-cyan: #00bcd4;
+  --color-blue: #2196f3;
+  --color-violet: #673ab7;
+
+  --font-base: "Avenir Next", sans-serif;
+  --font-code: "Fira Code", monospace;
+  --color-bg-success: var(--color-green);
+  --color-bg-info: var(--color-yellow);
+  --color-bg-warning: var(--color-orange);
+  --color-bg-error: var(--color-red);
+
+  --color-fg: #000;
+  --color-bg: #efefef;
+  --color-code-fg: inherit;
+  --color-code-bg: hsl(230, 1%, 98%);
+}
+
+a {
+  text-decoration-color: rgba(0,0,0,0.2);
+}
+
+a:hover {
+  text-decoration-color: rgba(0,0,0,0.5);
+}
+
+@media (prefers-color-scheme: dark) {
+}
+

@@ -1,10 +1,6 @@
 node_modules
+.next
 .DS_Store
-dist
-dist-ssr
-.next/
-out/
-build
-.vercel/
-*.local
 *.log
+*.local
+dist

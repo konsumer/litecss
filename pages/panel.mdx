@@ -1,0 +1,42 @@
+# Panel
+
+A panel is a box that has content in it, like a card. Titles are made with the `<h4>` tag.
+
+## install
+
+First install the parts you want:
+
+```bash
+npm i @litecss/look @litecss/panel
+```
+
+## usage
+
+Add it to your JSX file, and include the style:
+
+```js
+import '@litecss/look/style.css'
+import '@litecss/panel/style.css'
+import Panel from '@litecss/panel/index.jsx'
+```
+
+```jsx live=true
+<div>
+  <Panel>
+    <p>This one has no title.</p>
+    <LoremGibson />
+  </Panel>
+  <Panel>
+    <h4>Title Here</h4>
+    <LoremGibson />
+  </Panel>
+  <Panel shaded>
+    <h4>Shaded</h4>
+    <LoremGibson />
+  </Panel>
+  <Panel border>
+    <h4>Border</h4>
+    <LoremGibson />
+  </Panel>
+</div>
+```

@@ -1,0 +1,41 @@
+litecss is meant to be extremely atomic, and easy to use/modify all together, or in pieces. It can be used with react, or even as just a CSS-only  framework.
+
+## install
+
+First install the parts you want:
+
+```bash
+npm i @litecss/look @litecss/button @litecss/panel
+```
+
+## style
+
+You probably want the basic style. The default theme respects user's color preferences (light or dark mode) and chooses a good set of CSS variables for that.
+
+```js
+import '@litecss/look/style.css'
+import '@litecss/button/style.css'
+import '@litecss/panel/style.css'
+```
+
+This should go in a top-level file. For example, in nextjs, put it in `pages/_app.js`.
+
+### customizing
+
+[Have a look at the global CSS file](https://github.com/konsumer/litecss/blob/main/packages/look/style.css) to get a feel for how to make your own. If you just want to override colors/fonts or whatever, copy that file into your project, override what you like, then use all of our CSS files for everything else.  Also, feel free to make local copies of any component's CSS you want to override, and make it look exactly how you want. litecss is meant to be a base, but super-easy to customize with regular tools.
+
+## react
+
+If you are using react, you can import the components you want and use, like this:
+
+```js
+import Button from '@litecss/button/index.jsx'
+
+export default function MyThing() {
+  return (
+    <div>
+      <Button>COOL!</Button>
+    </div>
+  )
+}
+```

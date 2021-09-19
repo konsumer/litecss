@@ -1,0 +1,49 @@
+/* this is just for the doc-site */
+
+@import 'prism-themes/themes/prism-vs.css' screen and (prefers-color-scheme: light);
+@import 'prism-themes/themes/prism-vsc-dark-plus.css' screen and (prefers-color-scheme: dark);
+
+textarea {
+  background: var(--color-code-bg)!important;
+  font-family: var(--font-code)!important;
+}
+
+.docs {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.docs > header {
+  position: fixed;
+  z-index: 100000;
+  width: 100%;
+  top: 0;
+  background: #333;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.docs .content {
+  margin-top: 50px;
+}
+
+.docs .content aside {
+  margin-top: 1em;
+  width: 200px;
+  position: fixed;
+  padding: 20px;
+  height: 100%;
+  overflow: auto;
+}
+
+.docs .content aside button {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.docs .content main {
+  height: 100%;
+  overflow: auto;
+  margin-left: 250px;
+}
