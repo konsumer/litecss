@@ -10,5 +10,6 @@ module.exports = withMDX({
     config.resolve.alias.react = path.resolve('./node_modules/react')
     config.resolve.alias['react-dom'] = path.resolve('./node_modules/react-dom')
     return config
-  }
+  },
+  base: ''
 })
