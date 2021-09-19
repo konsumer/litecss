@@ -3,9 +3,9 @@
 import Highlight, { defaultProps } from 'prism-react-renderer'
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'
 
-import LoremGibson from '../components/LoremGibson.js'
-import Button from '../components/Button.js'
-import Panel from '../components/Panel.js'
+import LoremGibson from './components/LoremGibson.js'
+import Button from './components/Button.js'
+import Panel from './components/Panel.js'
 
 // this syntax-highlights, but leaves off theme so I can use my own CSS
 const CodeView = ({ children, language, ...props }) => {

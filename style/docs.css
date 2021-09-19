@@ -22,6 +22,8 @@ textarea {
   background: #333;
   color: #fff;
   padding-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .docs .content {

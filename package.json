@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "start": "next",
-    "build:static": "next build && next out"
+    "build": "next build && next export"
   },
   "devDependencies": {
     "@mdx-js/loader": "^1.6.22",
