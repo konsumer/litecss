@@ -44,10 +44,12 @@ function MyApp ({ Component, pageProps }) {
         </header>
         <div className='content'>
           <aside>
-            <NavLink href='/'>Getting started</NavLink>
-            <h4>Components</h4>
-            <NavLink href='/button'>Button</NavLink>
-            <NavLink href='/panel'>Panel</NavLink>
+            <nav>
+              <NavLink href='/'>Getting started</NavLink>
+              <h4>Components</h4>
+              <NavLink href='/button'>Button</NavLink>
+              <NavLink href='/panel'>Panel</NavLink>
+            </nav>
           </aside>
           <main>
             <Component {...pageProps} />

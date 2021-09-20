@@ -19,19 +19,35 @@ import Button from '@litecss/button/index.jsx'
 ```
 
 ```jsx live=true
-<div>
-  <Button>REGULAR</Button>
-  <Button primary>PRIMARY</Button>
-  <Button link>LINK</Button>
-  <Button subtle>SUBTLE</Button>
-  <Button ghost>GHOST</Button>
-  <Button red>RED</Button>
-  <Button orange>ORANGE</Button>
-  <Button yellow>YELLOW</Button>
-  <Button green>GREEN</Button>
-  <Button cyan>CYAN</Button>
-  <Button blue>BLUE</Button>
-  <Button violet>VIOLET</Button>
-  <Button primary tag='a' href='#cool'>a-tag</Button>
-</div>
+<>
+  <p>
+    <Button>REGULAR</Button>
+    <Button primary>PRIMARY</Button>
+    <Button link>LINK</Button>
+    <Button subtle>SUBTLE</Button>
+    <Button ghost>GHOST</Button>
+    <Button primary tag='a' href='#cool'>a-tag</Button>
+  </p>
+  <p>
+    <Button red>RED</Button>
+    <Button orange>ORANGE</Button>
+    <Button yellow>YELLOW</Button>
+    <Button green>GREEN</Button>
+    <Button cyan>CYAN</Button>
+    <Button blue>BLUE</Button>
+    <Button violet>VIOLET</Button>
+  </p>
+</>
+```
+
+You can also put them in a `<nav>` tag, to get a navigation look, like you see on the left.
+
+```jsx live=true
+<nav style={{ width: 300 }}>
+  <Button primary>Current</Button>
+  <Button ghost>Some other Link 1</Button>
+  <Button ghost>Some other Link 2</Button>
+  <Button ghost>Some other Link 3</Button>
+  <Button ghost>Some other Link 4</Button>
+</nav>
 ```

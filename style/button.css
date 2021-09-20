@@ -78,3 +78,9 @@ button.violet, .button.violet {
   color: #fff;
   background-color: #673ab7;
 }
+
+nav button, nav .button {
+  border-radius: 0;
+  width: 100%;
+  margin-bottom: 5px;
+}
